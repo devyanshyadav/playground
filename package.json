@@ -1,19 +1,17 @@
 {
-  "version": "0.1.0",
+  "version": "6.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
-  ],
+    "src"  ],
   "engines": {
-    "node": ">=10"
+    "node": ">=8.x"
   },
   "scripts": {
     "start": "tsdx watch",
-    "build": "tsdx build && npm run build-tailwind",
-    "build-tailwind": "npx tailwindcss -o ./dist/styles.css --minify",
+    "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
@@ -34,8 +32,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "playground",
-  "author": "Devyansh | localhost:3000",
+  "name": "devhello423",
+  "author": "Dev",
   "module": "dist/playground.esm.js",
   "size-limit": [
     {
